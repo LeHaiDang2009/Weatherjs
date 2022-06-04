@@ -56,3 +56,30 @@ body{
     width: 70px;
     height: 70px
 }
+
+
+@media all and (max-width: 1000px){
+    #container{
+        margin-top: 600px;
+        margin-left: 15%;
+        height: 600px
+    }
+    #container input{
+        height: 40px;
+        width: 200px;
+        font-size: 30px;
+    }
+
+    #container h1{
+        font-size: 60px;
+    }
+
+    #container h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+
+    body{
+        background-size: 100% 150%;
+    }
+}
